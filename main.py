@@ -104,14 +104,14 @@ Estimate the impact on Sweden in this exact JSON format:
 
 {
   "swedish_inflation_direction": "<increase | decrease | neutral>",
-  "inflation_drivers": "<short explanation of what causes this>",
-  "exchange_rate_effect": "<expected impact on SEK>",
-  "export_industry_effect": "<short explanation>",
-  "import_price_effect": "<short explanation>",
-  "energy_price_effect": "<short explanation>",
-  "riksbank_reaction": "<hawkish | dovish | unchanged>",
+  "inflation_drivers": "<main 1–2 drivers in one sentence>",
+  "exchange_rate_effect": "<SEK stronger | SEK weaker | neutral>",
+  "export_industry_effect": "<positive | negative | neutral>",
+  "import_price_effect": "<higher | lower | unchanged>",
+  "energy_price_effect": "<increase | decrease | neutral>",
+  "riksbank_reaction": "<raise rates | cut rates | hold>",
   "confidence_score": "<0-100>",
-  "summary": "<short readable summary>"
+  "summary": "<brief 2–3 sentence summary>"
 }
 
 Base your reasoning strictly on the geopolitical agents and Sweden's economic structure.
