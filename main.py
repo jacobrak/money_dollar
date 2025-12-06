@@ -215,18 +215,10 @@ USA ANALYSIS:
 
     # Return everything
     return {
-        "perspectives": perspectives,
-        "economic_impact": econ_response,
         "swedish_inflation_shock": shock_response
     }
 
 
-@app.get("/test")
-def test():
-    return {"message": "hello world"}
 
-# --------------------------
-# RUN LOCALLY (NOT FOR CLOUD RUN)
-# --------------------------
 if __name__ == "__main__":
     uvicorn.run("main:app", host="0.0.0.0", port=8080)
